@@ -7,7 +7,7 @@
 
 module "sg-unused" {
 
-  #source = "github.com/ministryofjustice/cloud-platform-terraform-rds-snapshot-limit-alert?ref=v1.0"
+  #source = "github.com/ministryofjustice/cloud-platform-terraform-report-unused-sg?ref=v1.0"
   source = "../"
   slack_hook_url = "<SLACK_TOKEN>"
   #schedule      = "<SCHEDULE>"
